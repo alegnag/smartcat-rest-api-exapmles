@@ -1,4 +1,4 @@
-{
+----{
 	"info": {
 		"_postman_id": "22975b53-5c03-4933-9f45-4c292668e723",
 		"name": "Smartcat API demonstration",
@@ -121,12 +121,12 @@
 					"basic": [
 						{
 							"key": "username",
-							"value": "YOUR_ACCOUNT_ID",
+							"value": "deb91d36-4e20-415f-93fa-7a6d4ed9f5aa							",
 							"type": "string"
 						},
 						{
 							"key": "password",
-							"value": "YOUR_API_KEY",
+							"value": "5_xZhxtqprNGJFJ5Q57siHrnS35",
 							"type": "string"
 						}
 					]
@@ -134,7 +134,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://smartcat.ai/api/integration/v1/document?documentId=e9764959c68863874e03f803_9",
+					"raw": "https://smartcat.ai/api/integration/v1/document?documentId=c7cd3091-d3ad-4fe3-847a-ebe412d4a55a",
 					"protocol": "https",
 					"host": [
 						"smartcat",
@@ -149,7 +149,7 @@
 					"query": [
 						{
 							"key": "documentId",
-							"value": "e9764959c68863874e03f803_9",
+							"value": "c7cd3091-d3ad-4fe3-847a-ebe412d4a55a",
 							"description": "Document ID is represented as int1_int2, where int1 identifies the document, and int2 identifies its target language"
 						}
 					]
